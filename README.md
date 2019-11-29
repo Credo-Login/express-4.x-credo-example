@@ -15,11 +15,20 @@ $ npm install
 
 The example uses environment variables to configure the consumer key and
 consumer secret needed to access Credo's API.  Start the server with those
-variables set to the appropriate credentials.
+variables set to the appropriate credentials in the bellow command.
+
+On **Linux**:
 
 ```bash
-$ CLIENT_ID=__CREDO_CLIENT_ID__ CLIENT_SECRET=__CREDO_CLIENT_SECRET__ node server.js
+$ CLIENT_ID=<CREDO_CLIENT_ID> CLIENT_SECRET=<CREDO_CLIENT_SECRET> node server.js
 ```
 
-Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
+On **Windows** cmd:
+```
+set CLIENT_ID=<CREDO_CLIENT_ID>
+set CLIENT_SECRET=<CREDO_CLIENT_SECRET>
+node server.js
+```
+
+Open a web browser and navigate to [http://localhost:8080/](http://localhost:8080/)
 to see the example in action.
